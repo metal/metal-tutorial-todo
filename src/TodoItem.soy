@@ -1,0 +1,22 @@
+{namespace TodoItem}
+
+/**
+ * This renders the component's whole content.
+ */
+{template .render}
+	{@param todo: ?}
+
+	{let $elementClasses kind="text"}
+		todo-item
+		{if $todo.done}
+			{sp}todo-item-done
+		{/if}
+	{/let}
+
+	<li
+		class="{$elementClasses}"
+		data-onclick="handleClick"
+	>
+		{$todo.title}
+	</li>
+{/template}

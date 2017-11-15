@@ -1,0 +1,16 @@
+body {
+	margin: 20px;
+}
+
+.todo-form, .todo-list {
+	padding: 20px;
+}
+
+.todo-item {
+	font-weight: 600;
+}
+
+.todo-item.todo-item-done {
+	text-decoration: line-through;
+	font-weight: 300;
+}
