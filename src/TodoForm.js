@@ -6,9 +6,9 @@ import Soy from 'metal-soy';
 
 class TodoForm extends Component {
 	handleSubmit(event) {
-		if (this.value) {
-			event.preventDefault();
+		event.preventDefault();
 
+		if (this.value) {
 			this.emit('todoAdd', {
 				title: this.value
 			});
