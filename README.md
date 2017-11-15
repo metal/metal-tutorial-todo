@@ -1,6 +1,6 @@
 # metal-todo-app
 
-My awesome Metal.js project
+Simple Todo App built with Metal.js, intended to be used for metaljs.com tutorial.
 
 ## Setup
 
