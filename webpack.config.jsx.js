@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-	entry: './src/TodoApp.js',
+	entry: './src/jsx/TodoApp.js',
 	module: {
 		rules: [{
 			test: /\.js$/,
@@ -10,8 +10,7 @@ module.exports = {
 				loader: 'babel-loader',
 				options: {
 					compact: false,
-					presets: ['babel-preset-es2015'],
-					plugins: ['babel-plugin-transform-node-env-inline']
+					presets: ['babel-preset-metal-jsx']
 				}
 			}
 		}, {

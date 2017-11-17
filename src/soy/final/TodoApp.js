@@ -7,7 +7,7 @@ import Soy from 'metal-soy';
 import './TodoForm';
 import './TodoItem';
 
-import './todo-app.scss';
+import '../../todo-app.scss';
 
 class TodoApp extends Component {
 	addTodo(title) {
@@ -40,7 +40,16 @@ Soy.register(TodoApp, templates);
 
 TodoApp.STATE = {
 	todos: {
-		value: []
+		value: [
+			{
+				done: false,
+				title: 'Todo 1'
+			},
+			{
+				done: false,
+				title: 'Todo 2'
+			}
+		]
 	}
 };
 
