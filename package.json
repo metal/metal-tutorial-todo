@@ -1,9 +1,9 @@
 {
-	"name": "metal-todo-app",
-	"version": "0.0.0",
+	"name": "metal-tutorial-todo",
+	"private": true,
 	"description": "Simple Todo example using Metal.js",
 	"license": "BSD",
-	"repository": "Robert-Frampton/metal-todo-app",
+	"repository": "Robert-Frampton/metal-tutorial-todo",
 	"engines": {
 		"node": ">=0.12.0",
 		"npm": ">=3.0.0"
