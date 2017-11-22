@@ -2,6 +2,9 @@
 
 import JSXComponent from 'metal-jsx';
 
+import TodoForm from './TodoForm';
+import TodoItem from './TodoItem';
+
 import '../todo-app.scss';
 
 class TodoApp extends JSXComponent {
@@ -12,34 +15,6 @@ class TodoApp extends JSXComponent {
 					[TODO]
 				</ul>
 			</div>
-		);
-	}
-}
-
-class TodoForm extends JSXComponent {
-	render() {
-		return (
-			<form class="todo-form">
-				<label for="title">
-					Todo
-					<input
-						name="title"
-					/>
-				</label>
-				<button type="submit">Add</button>
-			</form>
-		);
-	}
-}
-
-class TodoItem extends JSXComponent {
-	render() {
-		return (
-			<li
-				class="todo-item"
-			>
-				[TODO]
-			</li>
 		);
 	}
 }
