@@ -3,4 +3,4 @@ build
 coverage
 node_modules
 /lib
-**/*.soy.js
+src/**/*.soy.js
